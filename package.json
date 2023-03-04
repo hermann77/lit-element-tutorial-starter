@@ -40,7 +40,9 @@
     "workbox-webpack-plugin": "^6.5.4"
   },
   "dependencies": {
+    "@vaadin/router": "^1.7.4",
     "@vaadin/vaadin-button": "^23.3.7",
+    "@vaadin/vaadin-charts": "^23.3.8",
     "@vaadin/vaadin-checkbox": "^23.3.7",
     "@vaadin/vaadin-radio-button": "^23.3.7",
     "@vaadin/vaadin-text-field": "^23.3.7",
