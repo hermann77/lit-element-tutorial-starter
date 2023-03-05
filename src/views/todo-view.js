@@ -1,4 +1,5 @@
 import { LitElement, html } from "lit-element";
+import { BaseView } from "./base-view.js";
 import '@vaadin/vaadin-text-field';
 import '@vaadin/vaadin-button';
 import '@vaadin/vaadin-checkbox';
@@ -9,7 +10,7 @@ import {connect} from "pwa-helpers";
 import {store} from "../redux/store.js";
 import {addTodo, clearCompleted, updateFilter, updateTodoStatus} from "../redux/actions.js";
 
-class TodoView extends connect(store)(LitElement) {
+class TodoView extends connect(store)(BaseView) {
 
   static get properties() {
     return {
